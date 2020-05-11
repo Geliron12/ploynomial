@@ -1,0 +1,14 @@
+B=[2,-3,4,-5,6];
+A=[1,-3,1];
+[q,r]=deconv(B,A);
+q=Pol2Txt(q);
+r=Pol2Txt(r);
+disp(q, '-частное');
+disp(r, '-остаток');
+B=[1,-3,-1,-1];
+A=[3,-2,1];
+[q,r]=deconv(B,A);
+q=Pol2Txt(q);
+r=Pol2Txt(r);
+disp(q, '-частное');
+disp(r, '-остаток');
